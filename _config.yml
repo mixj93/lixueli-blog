@@ -77,6 +77,6 @@ archive_generator:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  # repo: https://git.coding.net/lixueli/lixueli.git
-  repo: https://lixueli:Rec100622@github.com/lixueli/lixueli.github.io.git
+  # 下方的 gh_token会被 .travis.yml 中替换
+  repo: https://gh_token@github.com/lixueli/lixueli.github.io.git
   branch: master
