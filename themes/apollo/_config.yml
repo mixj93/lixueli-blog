@@ -1,0 +1,23 @@
+menu:
+    博客: /
+    归档: /archives/
+    实验室: /labs/
+    微博: http://weibo.com/mixj93
+    GitHub: https://github.com/mixj93
+    Rss: /atom.xml
+
+favicon: /favicon.png
+logo: /favicon.png
+
+# Comment
+# e.g disqus: lixueli
+# e.g cloudTie: productKey
+disqus: lixueli
+# cloudTie: 79f05586794f416d95ff1c6cde33e066
+
+# Analytics
+# google-analytics:
+ga: UA-82881205-1
+
+# Copyright Infomation
+startyear: 2015
