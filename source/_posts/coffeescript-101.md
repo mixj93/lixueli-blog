@@ -1,6 +1,7 @@
 ---
 title: CoffeeScript 入坑小记
 desc: 开始写 CoffeeScript 啦，如何开始？从哪儿学习？
+date: 2016-08-01 20:34:50
 ---
 
 开始写 CoffeeScript 啦，如何开始？从哪儿学习？
