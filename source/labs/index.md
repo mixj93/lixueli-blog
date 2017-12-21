@@ -13,7 +13,7 @@ date: 2017-09-28 13:49:28
 
 - [round numbers](https://github.com/mixj93/aegisub-plugins#round-numberslua) - Aegisub Macro 用来四舍五入取整 \clip 和 drawing 中的小数。
 
-- [add hard line break](https://github.com/mixj93/aegisub-plugins#add-hard-line-breaklua) - Aegisub Macro 用来在行首添加硬换行符。
+- [add special characters](https://github.com/mixj93/aegisub-plugins#add-special-characterslua) - Aegisub Macro 在行首或行尾添加特殊符号（硬换行\N、软换行\n、硬空格\h）。
 
 ## NPM Package
 
