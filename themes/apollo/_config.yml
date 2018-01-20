@@ -1,7 +1,8 @@
 menu:
-    博客: /
+    文章: /
     归档: /archives/
     实验室: /labs/
+    视频: https://space.bilibili.com/7278038/#/
     GitHub: https://github.com/mixj93
     Rss: /atom.xml
 
@@ -19,4 +20,4 @@ disqus: lixueli
 ga: UA-82881205-1
 
 # Copyright Infomation
-startyear: 2015
+startyear: 2017
