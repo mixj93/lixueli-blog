@@ -85,6 +85,8 @@ print "Having %d pod(s) in kube-system" % len(pods)
 
 ![运行情况](https://user-images.githubusercontent.com/12998118/36132761-0020d4e8-10b4-11e8-9c16-994bddf72c65.jpg)
 
+[这里](https://github.com/mixj93/kubectl-plugin-overview)有个更加复杂的例子可以参考。
+
 ## 参考
 - [Extend kubectl with plugins](https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/)
 - [kubectl plugins example](https://github.com/kubernetes/kubernetes/tree/master/pkg/kubectl/plugins/examples)
