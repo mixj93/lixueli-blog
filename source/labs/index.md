@@ -5,7 +5,7 @@ date: 2017-09-28 13:49:28
 
 ## Chrome 浏览器主题
 
-- [Rick And Morty Theme](https://chrome.google.com/webstore/detail/rick-and-morty-theme/mjlbjnagciolegpimabclliiolgeobdn)
+- [Rick And Morty Theme](https://chrome.google.com/webstore/detail/rick-and-morty-theme/mjlbjnagciolegpimabclliiolgeobdn) - Chrome theme with awesome Rick And Morty Image.
 
 ## Alfred Workflow
 
