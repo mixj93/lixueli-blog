@@ -3,6 +3,10 @@ title: 实验室
 date: 2017-09-28 13:49:28
 ---
 
+## Chrome 浏览器主题
+
+- [Rick And Morty Theme](https://chrome.google.com/webstore/detail/rick-and-morty-theme/mjlbjnagciolegpimabclliiolgeobdn)
+
 ## Alfred Workflow
 
 - [antd](https://www.lixueli.com/2017/07/06/alfred-ant-design-doc-workflow/) - Ant Design 文档速查的 Alfred workflow。
