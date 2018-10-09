@@ -1,6 +1,9 @@
 ---
 title: 如何制作 kubectl 插件
 desc: 介绍如何制作一个简单的 kubectl 插件来扩展和定制 kubectl 的功能。
+tags:
+  - 开发
+  - k8s
 date: 2018-02-12 15:31:34
 ---
 

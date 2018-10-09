@@ -1,6 +1,8 @@
 ---
 title: 30分钟学 TypeScript
 desc: TypeScript 极简入门 - 30分钟学 TypeScript
+tags:
+  - 开发
 date: 2016-08-20 22:39:13
 ---
 

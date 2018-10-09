@@ -1,6 +1,9 @@
 ---
 title: Helm 101
 desc: 开始使用 Helm
+tags:
+  - 开发
+  - k8s
 date: 2017-07-21 10:47:15
 ---
 

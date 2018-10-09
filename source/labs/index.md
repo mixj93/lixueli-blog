@@ -3,6 +3,8 @@ title: 实验室
 date: 2017-09-28 13:49:28
 ---
 
+- [Lodestone](https://lodestone.xueli.li) -  炉石传说竞技场选牌助手。
+
 ## Chrome 浏览器主题
 
 - [Rick And Morty Theme](https://chrome.google.com/webstore/detail/rick-and-morty-theme/mjlbjnagciolegpimabclliiolgeobdn) - Chrome theme with awesome Rick And Morty Image.
@@ -30,7 +32,3 @@ date: 2017-09-28 13:49:28
 - [Operator Mono on Github](https://userstyles.org/styles/155311/operator-mono-on-github) - 在阅读 github.com 代码时使用 Operator Mono 字体
 
 - [桌面上的 m.weibo](https://userstyles.org/styles/137757/m-weibo) - 桌面上阅读 m.weibo.cn 的更好体验
-
-## 小游戏
-
-- [Breakout 打砖块](http://breakout.mixj93.com/) - 基于 Phaser.js 的一个简单的打砖块游戏

@@ -1,6 +1,9 @@
 ---
 title: 使用 kismatic 在虚拟机上部署 Kubernetes
 desc: 使用 kismatic 在虚拟机上部署 Kubernetes
+tags:
+  - 开发
+  - k8s
 date: 2017-04-24 18:38:59
 ---
 
