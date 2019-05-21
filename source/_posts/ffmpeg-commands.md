@@ -50,7 +50,7 @@ ffmpeg -i left.mp4 -i right.mp4 -filter_complex \
 ffmpeg -i input.mkv -map 0:0 -map 0:1 -c:a aac -ab 192k -strict -2 -async 1 -c:v libx264 -crf 23 -r 25 -s 1280x640 -aspect 2:1 -pix_fmt yuv420p -partitions partb8x8+partp4x4+partp8x8+parti8x8 -b-pyramid 1 -weightb 1 -8x8dct 1 -fast-pskip 1 -direct-pred 1 -coder ac -trellis 1 -me_method hex -subq 6 -me_range 16 -bf 3 -b_strategy 1 -refs 3 -flags +loop -sws_flags fast_bilinear -sc_threshold 40 -keyint_min 25 -g 50 -qmin 3 -qmax 51 -qdiff 4 -metadata creation_time=now -vf subtitles="sub.ass":charenc=utf-8 -sn -y output.mp4
 ```
 
-### 1280*640 -> 1280*720 加黑边
+### 1280\*640 -> 1280\*720 加黑边
 
 ```
 ffmpeg -i input.mkv -map 0:0 -map 0:1 -c:a aac -ab 320k -strict -2 -async 1 -c:v libx264 -crf 20 -r 24000/1001 -s 1280x720 -aspect 2:1 -pix_fmt yuv420p -partitions partb8x8+partp4x4+partp8x8+parti8x8 -b-pyramid 1 -weightb 1 -8x8dct 1 -fast-pskip 1 -direct-pred 1 -coder ac -trellis 1 -me_method hex -subq 6 -me_range 16 -bf 3 -b_strategy 1 -refs 3 -flags +loop -sws_flags fast_bilinear -sc_threshold 40 -keyint_min 24 -g 48 -qmin 3 -qmax 51 -qdiff 4 -threads 1 -metadata creation_time=now -vf scale=iw*1:ih,"pad=max(iw\,ih*(16/9)):ow/(16/9):(ow-iw)/2:(oh-ih)/2" -sn -aspect 16:9 -y output.mp4
