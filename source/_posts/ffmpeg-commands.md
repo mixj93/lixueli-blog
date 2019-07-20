@@ -42,6 +42,12 @@ ffmpeg -i left.mp4 -i right.mp4 -filter_complex \
 "[0:v:0]pad=iw*2:ih[bg]; [bg][1:v:0]overlay=w" output.mp4
 ```
 
+## 合并
+
+```
+ffmpeg -i "concat:input1.flv|input2.flv|input3.flv" -c copy output.mp4
+```
+
 ## ffmpeg 压制带字幕视频
 
 ### 1280*640
