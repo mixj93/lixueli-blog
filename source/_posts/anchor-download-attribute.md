@@ -39,12 +39,16 @@ JSON 格式的下载与 txt 下载类似，将 `a` 标签的 `href` 开头设置
   下载 JSON
 </a>
 ```
+
 ### CSV 与 TSV 格式
 
 CSV、TSV 格式首先需要借助 [ricardobeat/TSV](https://github.com/ricardobeat/TSV) 这个库将数据对象转换为 CSV、TSV 格式的字符串，其他步骤与 txt 和 JSON 格式的下载都类似。有一点需要特殊注意，如果内容包含中文字符，需要在 `data:text/csv;charset=utf-8,` 后面加上 `\ufeff`，否则会造成中文乱码。
 
 ```javascript
-<a download="data.json" href="data:application/json;charset=utf-8,\ufeff一些内容">
+<a
+  download="data.json"
+  href="data:application/json;charset=utf-8,\ufeff一些内容"
+>
   下载 CSV
 </a>
 ```
@@ -52,10 +56,12 @@ CSV、TSV 格式首先需要借助 [ricardobeat/TSV](https://github.com/ricardob
 ### 完整示例
 
 {% raw %}
+
 <p data-height="309" data-theme-id="0" data-slug-hash="eyLEQL" data-default-tab="result" data-user="mixj93" data-embed-version="2" data-pen-title="Download js object as JSON, CSV, TSV" class="codepen">See the Pen <a href="https://codepen.io/mixj93/pen/eyLEQL/">Download js object as JSON, CSV, TSV</a> by mixj93 (<a href="https://codepen.io/mixj93">@mixj93</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 {% endraw %}
 
 ## 参考
-- [了解HTML/HTML5中的download属性](http://www.zhangxinxu.com/wordpress/2016/04/know-about-html-download-attribute/)
+
+- [了解 HTML/HTML5 中的 download 属性](http://www.zhangxinxu.com/wordpress/2016/04/know-about-html-download-attribute/)
 - [HTML 元素参考 <a> - MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/a)
