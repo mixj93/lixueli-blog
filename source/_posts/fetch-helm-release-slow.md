@@ -4,6 +4,7 @@ desc: 调查获取 helm release 过慢的问题
 date: 2019-09-19 11:27:21
 tags:
   - 开发
+  - k8s
 ---
 
 最近发现并发获取 helm release 时会出现比较高的延迟，决定查了一下原因。
@@ -65,7 +66,7 @@ rpc GetReleaseStatus(GetReleaseStatusRequest) returns (GetReleaseStatusResponse)
 
 增加 `requestId:github.com/mercari/go-grpc-interceptor/xrequestid`
 
-![](https://user-images.githubusercontent.com/12998118/79627272-68eaf800-8169-11ea-9da5-45f1c9a0b2ba.png)
+![](https://user-images.githubusercontent.com/12998118/79627192-dfd3c100-8168-11ea-807f-7980294fb07d.png)
 
 ## 二、结果
 
