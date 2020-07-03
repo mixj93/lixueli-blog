@@ -3,8 +3,9 @@ title: 实验室
 date: 2017-09-28 13:49:28
 ---
 
-- [Lodestone](https://lodestone.xueli.li) -  炉石传说竞技场选牌助手。
-- [Super Papers](https://superpapers.xueli.li/) -  Super Pads kit曲谱工具，[源码](https://github.com/mixj93/superpapers)。
+- [Lodestone](https://lodestone.xueli.li) - 炉石传说工具箱。
+- [Super Papers](https://superpapers.xueli.li/) - Super Pads kit 曲谱工具，[源码](https://github.com/mixj93/superpapers)。
+- [Übersicht Weather Widget](http://tracesof.net/uebersicht-widgets/#uebersicht-weather-widget) - Mac 桌面天气插件 [源码](https://github.com/mixj93/uebersicht-weather-widget)。
 
 ## Chrome 浏览器主题
 
