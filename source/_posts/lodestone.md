@@ -4,7 +4,7 @@ desc: Lodestone 2.0 全新上线
 date: 2020-06-04 20:30:12
 ---
 
-做了一个炉石传说小工具网站 Lodestone。
+做了一个炉石传说小工具网站 [Lodestone](https://lodestone.xueli.li/)。
 
 <!--more-->
 
