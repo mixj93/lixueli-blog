@@ -20,7 +20,7 @@ let person = {
   age: 30,
   isAdult: function () {
     return this.age > 18
-  },
+  }
 }
 
 // shortand syntax
@@ -29,7 +29,7 @@ let lastName = 'Sparrow'
 
 let person = {
   firstName,
-  lastName,
+  lastName
 }
 
 // inspect property names
@@ -75,6 +75,7 @@ function Person(firstName, lastName) {
 ### 类
 
 ```javascript
+
 ```
 
 ## 内建对象
