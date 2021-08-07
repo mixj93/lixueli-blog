@@ -52,11 +52,6 @@ Virtual Service
 
 Destination Rule
 
-9:05 - How to configure Istio?
-11:57 - Istio Features: Service Discovery, Security, Metrics & Tracing
-13:19 - Istio Gateway
-14:06 - Final Overview: Traffic Flow with Istio
-
 ## 参考资料
 
 - [📺 Istio & Service Mesh - simply explained in 15 mins](https://www.youtube.com/watch?v=16fgzklcF7Y)
