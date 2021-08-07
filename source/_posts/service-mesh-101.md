@@ -7,9 +7,55 @@ tags:
   - k8s
 ---
 
-目前有关于服务治理（Service Mesh）的需求日益增多，所以需要及时了解一下相关的知识。
+目前有关于服务网格（Service Mesh）的需求日益增多，所以需要及时了解一下相关的知识。
 
 <!--more-->
+
+> Istio is a Service Mesh
+
+服务网格 (Service Mesh) 管理微服务间的通信。
+
+## 微服务架构
+
+- business logic (BL)
+- communication configurations (COMM)
+- security logic (SEC)
+- retry logic (R)
+- metrics & tracing logic (MT)
+
+分离业务逻辑和非业务逻辑
+
+## Service Mesh 解决方案
+
+### Sidecar Proxy
+
+- handles these networking logic
+- acts as a Proxy
+- third-party application
+- cluster operators can configure it easily
+
+### Control Plane
+
+- Control Plane injects the Sidecar Proxy
+
+## 核心特性
+
+### Traffic Splitting
+
+蓝绿发布
+
+### Istio 架构
+
+Envoy proxy
+
+Virtual Service
+
+Destination Rule
+
+9:05 - How to configure Istio?
+11:57 - Istio Features: Service Discovery, Security, Metrics & Tracing
+13:19 - Istio Gateway
+14:06 - Final Overview: Traffic Flow with Istio
 
 ## 参考资料
 
