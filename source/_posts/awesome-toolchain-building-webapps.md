@@ -3,6 +3,8 @@ title: 令人舒适的构建 Web 应用工具箱
 desc: 用于构建 Web 应用的一系列技术选型和工具
 date: 2019-11-23 13:51:59
 tags:
+  - 开发
+  - web
 ---
 
 本文介绍了 https://superpapers.xueli.li/ 从构想到设计到开发到上线的一些列用到的工具和技术栈。
@@ -13,15 +15,13 @@ tags:
 
 [Super Pads](http://superpadsapp.com/) 是个超级有趣的音乐应用，能够让你像 DJ 一样演奏乐曲。为了便于演奏，就需要有一个可以记录乐谱的工具，这便是 [Super Papers](https://superpapers.xueli.li/)。
 
-> [Super Papers 网站](https://superpapers.xueli.li/)
-> [Super Papers 设计稿](https://dribbble.com/shots/7976441-Super-Papers-Web-UI)
-> [Super Papers 的 Github](https://github.com/mixj93/superpapers)
+> [Super Papers 网站](https://superpapers.xueli.li/) > [Super Papers 设计稿](https://dribbble.com/shots/7976441-Super-Papers-Web-UI) > [Super Papers 的 Github](https://github.com/mixj93/superpapers)
 
 ## 设计
 
 ### 快速原型
 
-手画原型非常适合用来绘制简单的草稿原型，iPad上的应用 [Paper by 53](https://www.fiftythree.com/) 也是一个非常好的绘图工具，绘制的效果非常好。
+手画原型非常适合用来绘制简单的草稿原型，iPad 上的应用 [Paper by 53](https://www.fiftythree.com/) 也是一个非常好的绘图工具，绘制的效果非常好。
 
 ### 设计稿
 
