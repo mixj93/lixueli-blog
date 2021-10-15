@@ -3,18 +3,18 @@ title: 计算机专业学习的一些思考与总结
 date: 2017-04-19 14:00:12
 ---
 
-这是一篇旧文，写于两年前毕业之际，最初发布在[简书](http://www.jianshu.com/p/0dff5466217e "简书链接" target="_blank")上，最近发现依然能给计算机、互联网初学者带来帮助。
+这是一篇旧文，写于两年前毕业之际，最初发布在[简书](https://www.jianshu.com/p/0dff5466217e "简书链接" target="_blank")上，最近发现依然能给计算机、互联网初学者带来帮助。
 
 <!--more-->
 
-![Apple WWDC 2014 标志及宣传语](http://upload-images.jianshu.io/upload_images/51201-0bdc90b4b6804f00.png)
+![Apple WWDC 2014 标志及宣传语](https://upload-images.jianshu.io/upload_images/51201-0bdc90b4b6804f00.png)
 
 *大学四年不知不觉一晃而过，在临近毕业之际，写下这篇文章一方面是对自己的总结，另一方面向其他同学分享我的经验。*
 ***
 <br >
 
 
-![](http://upload-images.jianshu.io/upload_images/51201-7d46e6f0419d0d91.jpg)
+![](https://upload-images.jianshu.io/upload_images/51201-7d46e6f0419d0d91.jpg)
 
 ## 1.兴趣是最好的老师
 
@@ -38,7 +38,7 @@ date: 2017-04-19 14:00:12
 
 <br >
 
-![](http://upload-images.jianshu.io/upload_images/51201-599d3fabe0006675.jpg)
+![](https://upload-images.jianshu.io/upload_images/51201-599d3fabe0006675.jpg)
 
 ## 2.速成的谎言，坚持才是不二法门
 
@@ -48,7 +48,7 @@ Peter Norvig 写过，计算机博士徐宥翻译过一篇文章——《十年�
 
 <br>
 
-![](http://upload-images.jianshu.io/upload_images/51201-4a1eeda1fc453942.jpg)
+![](https://upload-images.jianshu.io/upload_images/51201-4a1eeda1fc453942.jpg)
 
 ## 3.我的编程学习经验
 
@@ -63,7 +63,6 @@ Peter Norvig 写过，计算机博士徐宥翻译过一篇文章——《十年�
 对于以上两类课程，我的建议是除了认真听课、完成作业，课后也多查阅资料，多练习，多实践。
 
 **（2）自我学习**
-
 
 * 技术书籍的选择
 要选择“著”而不是“编著”，“著”的书往往包含了作者自身长年积累的经验和知识、见解。而“编著”往往只是简单的知识的整理收集，缺乏对知识的梳理、讲解。国外的书往往质量更高，能直接阅读英文原文著作当然是做好的，翻译的作品也是不错的。
@@ -93,9 +92,7 @@ Peter Norvig 写过，计算机博士徐宥翻译过一篇文章——《十年�
 
 从我上面推荐的资料看来，很多资料都是英文的，这就需要英语的能力。英语能力或许计算机从业者们是除了专业技能之外最重要的技能了。因为最新的技术往往来自于大洋彼岸说着英语的国家，一手的资料往往都是英文的。而且英语是全世界的开发者的通用语言，和其他开发者交流心得体会也需要英语。总之，学好英语有百利而无一害。
 
-
-![](http://upload-images.jianshu.io/upload_images/51201-1860c63c08df731a.jpg)
-
+![](https://upload-images.jianshu.io/upload_images/51201-1860c63c08df731a.jpg)
 
 ## 4.关于工作
 

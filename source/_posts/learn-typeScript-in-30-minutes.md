@@ -10,8 +10,6 @@ TypeScript 极简入门。
 
 <!--more-->
 
-![](http://cdn.tutorialzine.com/wp-content/uploads/2016/07/learn-typescript-in-30.png)
-
 [原创翻译，英文原文地址](http://tutorialzine.com/2016/07/learn-typescript-in-30-minutes/)
 
 # 30分钟学 TypeScript
