@@ -3,6 +3,8 @@ title: 检测Headless Chrome
 desc: 如何检测Headless Chrome
 date: 2021-10-21 17:26:25
 tags:
+  - web
+  - 风控
 ---
 
 什么是无头浏览器（Headless browser）？为什么要检测它？如何检测它？
@@ -23,7 +25,7 @@ PhantomJS是曾经非常流行的一个无头浏览器。它是基于Qt框架开
 
 ## 无头浏览器（Headless browser）的检测
 
-### 用户代理（User Agent）
+### 用户代理（User Agent）*[有效]*
 
 ```js
 if (/HeadlessChrome/.test(window.navigator.userAgent)) {
@@ -31,7 +33,7 @@ if (/HeadlessChrome/.test(window.navigator.userAgent)) {
 }
 ```
 
-### 插件（Plugins）
+### 插件（Plugins）*[有效]*
 
 navigator.plugins返回浏览器插件数组。通常情况下，普通的Chrome浏览器中会有一些默认插件，如Chrome PDF阅读器或者Chrome Google Native Client。但是在headless模式下，插件为空。
 
@@ -41,7 +43,7 @@ if(navigator.plugins.length == 0) {
 }
 ```
 
-### 语言（Languages）
+### 语言（Languages）*[无效]*
 
 ```js
 if(navigator.languages == "") {
@@ -49,7 +51,7 @@ if(navigator.languages == "") {
 }
 ```
 
-### WebGL
+### WebGL *[无效]*
 
 ```js
 var canvas = document.createElement('canvas');
@@ -74,7 +76,7 @@ if(!Modernizr["hairline"]) {
 }
 ```
 
-### 图像
+### 图像 *[无效]*
 
 如果是普通的 Chrome，图片的宽度和高度取决于浏览器的缩放，但与零不同。在无头的 Chrome 中，图片的宽度和高度都等于零。
 
@@ -91,7 +93,7 @@ image.onerror = function(){
 }
 ```
 
-### Webdriver
+### Webdriver *[有效]*
 
 ```js
 if(navigator.webdriver) {
@@ -99,7 +101,7 @@ if(navigator.webdriver) {
 }
 ```
 
-### window.chrome
+### window.chrome *[无效]*
 
 ```js
 if(isChrome && !window.chrome) {
@@ -107,7 +109,7 @@ if(isChrome && !window.chrome) {
 }
 ```
 
-### 权限（Permissions）
+### 权限（Permissions）*[有效]*
 
 Headless Chrome不能正确的处理权限，会导致状态不一致，其中`notifation.permission`和`navigator.permissions.query`的值是矛盾的。
 
