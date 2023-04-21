@@ -4,7 +4,7 @@ desc: 我的ffmpeg常用命令
 date: 2019-05-21 14:00:24
 ---
 
-我的ffmpeg，ffprobe常用命令
+我的 ffmpeg，ffprobe 常用命令
 
 <!--more-->
 
@@ -15,6 +15,7 @@ ffprobe video.mp4
 ```
 
 输出含义：
+
 - tbn = the time base in AVStream that has come from the container
 - tbc = the time base in AVCodecContext for the codec used for a particular stream
 - tbr = tbr is guessed from the video stream and is the value users want to see when they look for the video frame rate
@@ -45,12 +46,21 @@ ffmpeg -i left.mp4 -i right.mp4 -filter_complex \
 ## 合并
 
 ```
+# 新版ffmpeg已经无法使用
 ffmpeg -i "concat:input1.flv|input2.flv|input3.flv" -c copy output.mp4
+
+# 通过文件来批量合并
+ffmpeg -f concat -safe 0 -i files.txt -c copy output.mp4
+
+# files.txt
+file './1.mp4'
+file './2.mp4'
+file './3.mp4'
 ```
 
 ## ffmpeg 压制带字幕视频
 
-### 1280*640
+### 1280\*640
 
 ```
 ffmpeg -i input.mkv -map 0:0 -map 0:1 -c:a aac -ab 192k -strict -2 -async 1 -c:v libx264 -crf 23 -r 25 -s 1280x640 -aspect 2:1 -pix_fmt yuv420p -partitions partb8x8+partp4x4+partp8x8+parti8x8 -b-pyramid 1 -weightb 1 -8x8dct 1 -fast-pskip 1 -direct-pred 1 -coder ac -trellis 1 -me_method hex -subq 6 -me_range 16 -bf 3 -b_strategy 1 -refs 3 -flags +loop -sws_flags fast_bilinear -sc_threshold 40 -keyint_min 25 -g 50 -qmin 3 -qmax 51 -qdiff 4 -metadata creation_time=now -vf subtitles="sub.ass":charenc=utf-8 -sn -y output.mp4
@@ -62,7 +72,7 @@ ffmpeg -i input.mkv -map 0:0 -map 0:1 -c:a aac -ab 192k -strict -2 -async 1 -c:v
 ffmpeg -i input.mkv -map 0:0 -map 0:1 -c:a aac -ab 320k -strict -2 -async 1 -c:v libx264 -crf 20 -r 24000/1001 -s 1280x720 -aspect 2:1 -pix_fmt yuv420p -partitions partb8x8+partp4x4+partp8x8+parti8x8 -b-pyramid 1 -weightb 1 -8x8dct 1 -fast-pskip 1 -direct-pred 1 -coder ac -trellis 1 -me_method hex -subq 6 -me_range 16 -bf 3 -b_strategy 1 -refs 3 -flags +loop -sws_flags fast_bilinear -sc_threshold 40 -keyint_min 24 -g 48 -qmin 3 -qmax 51 -qdiff 4 -threads 1 -metadata creation_time=now -vf scale=iw*1:ih,"pad=max(iw\,ih*(16/9)):ow/(16/9):(ow-iw)/2:(oh-ih)/2" -sn -aspect 16:9 -y output.mp4
 ```
 
-### 1920*1080 H265 -> H264
+### 1920\*1080 H265 -> H264
 
 ```
 ffmpeg -i input.mp4 -map 0:0 -map 0:1 -c:a aac -ab 192k -strict -2 -async 1 -c:v libx264 -crf 20 -r 24 -s 1920x1080 -aspect 16:9 -pix_fmt yuv420p -partitions partb8x8+partp4x4+partp8x8+parti8x8 -b-pyramid 1 -weightb 1 -8x8dct 1 -fast-pskip 1 -direct-pred 1 -coder ac -trellis 1 -me_method hex -subq 6 -me_range 16 -bf 3 -b_strategy 1 -refs 3 -flags +loop -sws_flags fast_bilinear -sc_threshold 40 -keyint_min 24 -g 48 -qmin 3 -qmax 51 -qdiff 4 -threads 1 -metadata creation_time=now -sn -y output.mp4
